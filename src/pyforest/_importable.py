@@ -102,15 +102,15 @@ def _update_import_cell():
 
     statements = active_imports(print_statements=False)
 
-    display(
-        Javascript(
-            """
-        if (window._pyforest_update_imports_cell) {{ window._pyforest_update_imports_cell({!r}); }}
-    """.format(
-                "\n".join(statements)
-            )
-        )
-    )
+#    display(
+#        Javascript(
+#            """
+#        if (window._pyforest_update_imports_cell) {{ window._pyforest_update_imports_cell({!r}); }}
+#    """.format(
+#                "\n".join(statements)
+#            )
+#        )
+#    )
 
 
 def _get_import_statements(symbol_dict, was_imported=True):
