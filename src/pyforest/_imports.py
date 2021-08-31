@@ -166,6 +166,9 @@ dt = LazyImport("import datetime as dt")
 
 tqdm = LazyImport("import tqdm")
 
+### Neuroimaging
+nib = LazyImport("import nibabel as nib")
+load_img = LazyImport("from nilearn.image import load_img")
 
 ##################################################
 ### dont make adjustments below this line ########
