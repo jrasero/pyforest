@@ -170,6 +170,10 @@ tqdm = LazyImport("import tqdm")
 nib = LazyImport("import nibabel as nib")
 load_img = LazyImport("from nilearn.image import load_img")
 
+### Distance functions
+pdist = LazyImport("from scipy.spatial.distance import pdist")
+squareform = LazyImport("from scipy.spatial.distance import squareform")
+
 ##################################################
 ### dont make adjustments below this line ########
 ##################################################
